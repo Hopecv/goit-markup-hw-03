@@ -13,9 +13,37 @@ body {
   color: var(--text-color);
   background-color: var(--backgr-color);
 }
-
+* {
+  box-sizing: border-box;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+}
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
 /* шапка сайта */
-
+header {
+  padding-top: 24px;
+}
 .link {
   text-decoration: none;
 }
@@ -28,6 +56,7 @@ body {
   text-decoration: none;
   font-size: 18px;
   line-height: 1.17;
+  margin-bottom: 16px;
 }
 .studio {
   color: var(--color--);
@@ -66,6 +95,7 @@ body {
 
 .first-sec {
   background-color: var(--color--);
+  margin-bottom: 120px;
 }
 .header-first {
   color: var(--backgr-color);
@@ -96,6 +126,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .third-h {
   font-size: 16px;
@@ -113,6 +144,7 @@ body {
   text-transform: capitalize;
   color: var(--color--);
   text-align: center;
+  margin-bottom: 72px;
 }
 
 /* наша команда */
@@ -130,6 +162,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--color--);
   background-color: var(--backgr-color);
+  margin-bottom: 8px;
 }
 .job {
   font-size: 16px;
@@ -153,7 +186,6 @@ body {
 .studioi {
   color: var(--too-color--);
 }
-
 
 /* portfolio */
 /* основна частина */
