@@ -147,7 +147,7 @@ img {
 .second-sec {
   padding: 120px 0;
 }
-.li-items {
+.li-items-first {
   width: calc((100% - 72px) / 4);
   margin-right: 24px;
 }
