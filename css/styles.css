@@ -144,12 +144,11 @@ img {
   padding: 120px 0;
 }
 .li-items {
+  width: calc((100% - 72px) / 4);
   margin-right: 24px;
-  width: calc((100% - 72px) / 4);
 }
-.items-last{
+.last {
   margin-right: 0;
-  width: calc((100% - 72px) / 4);
 }
 .header-sec {
   visibility: hidden;
@@ -170,6 +169,9 @@ img {
 
 /* що ми робимо */
 
+.third-sec {
+  padding-bottom: 120px;
+}
 .header-four {
   font-size: 36px;
   line-height: 1.11;
@@ -179,7 +181,12 @@ img {
   text-align: center;
   margin-bottom: 72px;
 }
-
+.third {
+  gap: 24px;
+}
+.thidr-li-it {
+  width: calc((100% - 48px) / 3);
+}
 /* наша команда */
 
 .team {
