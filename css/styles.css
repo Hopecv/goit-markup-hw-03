@@ -45,7 +45,6 @@ img {
 .header {
   padding-top: 24px;
   border-bottom: 1px solid #e7e9fc;
-
 }
 .navigat {
   align-items: center;
@@ -228,7 +227,7 @@ img {
   background-color: var(--color--);
   padding: 100px 0;
 }
-.web-bot{
+.web-bot {
   display: inline-block;
   margin-bottom: 16px;
 }
@@ -237,7 +236,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  }
+}
 .studioi {
   color: var(--too-color--);
 }
@@ -245,9 +244,8 @@ img {
 /* portfolio */
 /* основна частина */
 
-
-.port-sec{
-  padding-top: 96px; 
+.port-sec {
+  padding-top: 96px;
   padding-bottom: 120px;
 }
 .button-portf {
@@ -265,15 +263,14 @@ img {
   color: var(--backgr-color);
   background-color: var(--next-color--);
   border: 1px solid transparent;
-  
 }
-.buttonns{
+.buttonns {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
 }
-.button-portf{
+.button-portf {
   padding: 12px 24px;
   border-radius: 4px;
 }
