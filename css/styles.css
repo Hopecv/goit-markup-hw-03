@@ -188,7 +188,6 @@ img {
 .third {
   gap: 24px;
   width: calc((100% - 48px) / 3);
-
 }
 .thidr-li-it {
   width: calc((100% - 48px) / 3);
