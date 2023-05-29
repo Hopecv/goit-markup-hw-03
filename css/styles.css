@@ -232,7 +232,7 @@ img {
   background-color: var(--color--);
   padding: 100px 0;
 }
-.web-bot {
+.web-bot link {
   display: inline-block;
   margin-bottom: 16px;
 }
