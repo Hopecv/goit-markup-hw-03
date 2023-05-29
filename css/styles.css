@@ -142,7 +142,10 @@ img {
 }
 .second-sec{
   padding: 120px 0;
-  
+}
+.header-sec{
+ visibility: hidden;
+
 }
 .header-third {
   color: var(--color--);
