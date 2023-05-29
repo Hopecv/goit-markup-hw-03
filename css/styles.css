@@ -226,6 +226,10 @@ img {
   background-color: var(--color--);
   padding: 100px 0;
 }
+.web-bot{
+  display: inline-block;
+  margin-bottom: 16px;
+}
 .boot-p {
   font-weight: 400;
   font-size: 16px;
