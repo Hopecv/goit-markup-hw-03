@@ -268,6 +268,7 @@ img {
   column-gap: 24px;
   row-gap: 48px;
   display: flex;
+  width: calc((100% - 48px) / 3);
 }
 .photo-li  li{
   width: calc((100% - 48px) / 3);
