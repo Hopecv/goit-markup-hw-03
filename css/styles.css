@@ -142,12 +142,13 @@ img {
 
 .second-li {
   padding: 24px 0;
+  gap: 24px;
 }
 .second-sec {
   padding: 120px 0;
 }
 .li-items {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
   margin-right: 24px;
 }
 .last {
