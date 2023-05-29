@@ -196,6 +196,9 @@ img {
   background-color: var(--too-color--);
   padding: 120px 0;
 }
+.team-ul {
+  gap: 24px;
+}
 .four-list {
   background-color: var(--backgr-color);
   width: calc((100% - 72px) / 4);
