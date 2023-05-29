@@ -72,7 +72,6 @@ img {
   list-style: none;
   gap: 40px;
   display: flex;
-  padding: 24px 0;
 }
 .list-it:hover,
 .list-it:focus {
@@ -84,6 +83,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color--);
+  padding: 24px 0;
 }
 .addss {
   font-style: normal;
@@ -137,7 +137,9 @@ img {
 
 /* наші принципи */
 
-
+.second-li{
+  padding: 24px 0;
+}
 .second-sec{
   padding: 120px 0;
   
