@@ -41,7 +41,6 @@ img {
   padding-right: 15px;
   margin: 0 auto;
   display: flex;
-  
 }
 /* шапка сайта */
 .header {
@@ -235,7 +234,7 @@ img {
   padding: 100px 0;
 }
 .webs {
-  display: inline-block; 
+  display: inline-block;
   margin-bottom: 16px;
 }
 .boot-p {
@@ -272,7 +271,7 @@ img {
   display: flex;
   width: calc((100% - 48px) / 3);
 }
-.photo-li  li{
+.photo-li li {
   width: calc((100% - 48px) / 3);
   flex-wrap: wrap;
 }
@@ -293,7 +292,6 @@ img {
   gap: 24px;
   margin-bottom: 72px;
   flex-wrap: wrap;
-  
 }
 .button-portf {
   padding: 12px 24px;
