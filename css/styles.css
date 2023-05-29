@@ -245,6 +245,11 @@ img {
 /* portfolio */
 /* основна частина */
 
+
+.port-sec{
+  padding-top: 96px; 
+  padding-bottom: 120px;
+}
 .button-portf {
   font-family: inherit;
   font-weight: 500;
@@ -259,4 +264,16 @@ img {
 .button-portf:focus {
   color: var(--backgr-color);
   background-color: var(--next-color--);
+  border: 1px solid transparent;
+  
+}
+.buttonns{
+  display: flex;
+  justify-content: center; 
+  gap: 24px;
+  margin-bottom: 72px;
+}
+.button-portf{
+  padding: 12px 24px;
+  border-radius: 4px;
 }
