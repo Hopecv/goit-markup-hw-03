@@ -233,8 +233,7 @@ img {
   background-color: var(--color--);
   padding: 100px 0;
 }
-.web-bot link {
-  display: inline-block;
+.web-bot {
   margin-bottom: 16px;
 }
 .boot-p {
