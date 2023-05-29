@@ -263,13 +263,13 @@ img {
   background-color: var(--too-color--);
   cursor: pointer;
 }
-.photo list {
+.photo {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
   display: flex;
 }
-.photo-li {
+.photo-li  li{
   width: calc((100% - 48px) / 3);
 }
 .photo-a {
