@@ -7,6 +7,7 @@
   --color--: #2e2f42;
   --too-color--: #f4f4fd;
   --next-color--: #404bbf;
+  --butt-color--: #e7e9fc;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -258,6 +259,19 @@ img {
   background-color: var(--too-color--);
   cursor: pointer;
 }
+.photo {
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.photo-li {
+  width: calc((100% - 48px) / 3);
+}
+.photo-a {
+  padding: 32px 16px;
+  border: 1px solid var(--butt-color--);
+  border-top: none;
+}
 .button-portf:hover,
 .button-portf:focus {
   color: var(--backgr-color);
@@ -273,4 +287,5 @@ img {
 .button-portf {
   padding: 12px 24px;
   border-radius: 4px;
+  border: 1px solid var(--butt-color--);
 }
