@@ -263,7 +263,7 @@ img {
   background-color: var(--too-color--);
   cursor: pointer;
 }
-.photo {
+.photo list {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
