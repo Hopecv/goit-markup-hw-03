@@ -46,10 +46,9 @@ img {
 /* шапка сайта */
 .header {
   border-bottom: 1px solid #e7e9fc;
-  
+ 
 }
 .heads {
-  align-items: center;
   padding: 0 15px
 }
 .navigat {
@@ -58,6 +57,7 @@ img {
 }
 .link {
   text-decoration: none;
+  display: inline-block;
 }
 .web {
   display: inline-block;
@@ -74,6 +74,7 @@ img {
 }
 .studio {
   color: var(--color--);
+  display: inline-block;
 }
 .list {
   list-style: none;
