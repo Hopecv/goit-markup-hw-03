@@ -46,6 +46,7 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 .heads {
+  align-items: center;
   padding: 0 15px;
   display: flex;
 }
@@ -86,6 +87,7 @@ img {
   color: var(--next-color--);
 }
 .list-it {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -258,6 +260,8 @@ img {
   align-items: flex-start;
 }
 .webs {
+  text-transform: uppercase;
+  color: var(--t-color--);
   display: inline-block;
   margin-bottom: 16px;
   font-family: "Raleway";
@@ -266,6 +270,7 @@ img {
   font-size: 18px;
 }
 .boot-p {
+  color: var(--too-color--);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
