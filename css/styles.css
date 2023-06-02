@@ -258,7 +258,7 @@ img {
   flex-direction: column;
   align-items: flex-start;
 }
-.webs {
+.webs link {
   display: inline-block;  
   font-family: "Raleway";
   font-style: normal;
