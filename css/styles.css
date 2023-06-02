@@ -256,11 +256,12 @@ img {
 }
 .foot {
   flex-direction: column;
+  
 }
 .webs {
+  display: inline-block;
   font-family: "Raleway";
   font-style: normal;
-  display: inline-block;
   margin-bottom: 16px;
   font-weight: 800;
   font-size: 18px;
@@ -273,6 +274,7 @@ img {
 }
 .studioi {
   color: var(--too-color--);
+  display: inline-block;
 }
 
 /* portfolio */
