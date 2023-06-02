@@ -117,7 +117,6 @@ img {
 .head-butt {
   display: flex;
   flex-direction: column;
- 
 }
 .header-first {
   padding: 0 auto;
@@ -187,7 +186,6 @@ img {
 
 .third-sec {
   padding-bottom: 120px;
- 
 }
 .doing {
   display: block;
@@ -254,15 +252,15 @@ img {
   padding: 100px 0;
 }
 
-.foot{
+.foot {
   flex-direction: column;
   align-items: flex-start;
 }
-.webs link {
-  display: inline-block;  
+.webs {
+  display: inline-block;
+  margin-bottom: 16px;
   font-family: "Raleway";
   font-style: normal;
-  margin-bottom: 16px;
   font-weight: 800;
   font-size: 18px;
 }
@@ -271,7 +269,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  max-width: 264px
+  max-width: 264px;
 }
 .studioi {
   color: var(--too-color--);
