@@ -41,12 +41,13 @@ img {
   padding-right: 15px;
   margin: 0 auto;
   display: flex;
+  align-items: center;
 }
 /* шапка сайта */
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-.heads{
+.heads {
   align-items: center;
 }
 .navigat {
@@ -114,6 +115,9 @@ img {
   padding: 188px 0;
   flex-direction: column;
 }
+.head-butt {
+  flex-direction: column;
+}
 .header-first {
   color: var(--backgr-color);
   font-size: 56px;
@@ -123,6 +127,7 @@ img {
   max-width: 496px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 48px;
 }
 .button-first:hover,
 .button-first:focus {
@@ -181,8 +186,10 @@ img {
 .third-sec {
   padding-bottom: 120px;
   display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
+}
+.doing {
+  flex-direction: column;
+
 }
 .header-four {
   font-size: 36px;
@@ -194,9 +201,11 @@ img {
   margin-bottom: 72px;
 }
 .third {
-  margin-left: auto;
-  margin-right: auto;
+  align-items: center;
+  margin-left: 400px
+  margin-right: 250px
   gap: 24px;
+
 }
 .thidr-li-it {
   width: calc((100% - 48px) / 3);
@@ -206,6 +215,9 @@ img {
 .team {
   background-color: var(--too-color--);
   padding: 120px 0;
+}
+.we-team {
+  flex-direction: column;
 }
 .team-ul {
   gap: 24px;
@@ -242,9 +254,16 @@ img {
   background-color: var(--color--);
   padding: 100px 0;
 }
+.foot {
+  flex-direction: column;
+}
 .webs {
+  font-family: "Raleway";
+  font-style: normal;
   display: inline-block;
   margin-bottom: 16px;
+  font-weight: 800;
+  font-size: 18px;
 }
 .boot-p {
   font-weight: 400;
