@@ -201,12 +201,9 @@ img {
   margin-bottom: 72px;
 }
 .third {
-  align-items: center;
-  margin-left: 400px
-  margin-right: 250px
   gap: 24px;
-
-}
+  align-items: center;
+  }
 .thidr-li-it {
   width: calc((100% - 48px) / 3);
 }
