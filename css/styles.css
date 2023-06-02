@@ -40,7 +40,6 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  display: flex;
   align-items: center;
 }
 /* шапка сайта */
@@ -49,6 +48,7 @@ img {
 }
 .heads {
   padding: 0 15px;
+  display: flex;
 }
 .navigat {
   align-items: center;
