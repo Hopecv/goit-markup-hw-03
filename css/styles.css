@@ -256,6 +256,7 @@ img {
   align-items: flex-start;
 }
 .webs {
+  display: inline-block;
   margin-bottom: 16px;
   font-family: "Raleway";
   font-style: normal;
