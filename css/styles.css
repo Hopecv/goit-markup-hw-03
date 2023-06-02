@@ -120,8 +120,10 @@ img {
  
 }
 .header-first {
+  padding: 0 auto;
+  max-width: 496px;
   color: var(--backgr-color);
-  font-size: 56px;
+  font-size: 52px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
@@ -257,7 +259,7 @@ img {
   align-items: flex-start;
 }
 .webs {
-  
+  display: inline-block;  
   font-family: "Raleway";
   font-style: normal;
   margin-bottom: 16px;
