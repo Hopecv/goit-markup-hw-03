@@ -44,8 +44,10 @@ img {
 }
 /* шапка сайта */
 .header {
-  padding-top: 24px;
   border-bottom: 1px solid #e7e9fc;
+}
+.heads{
+  align-items: center;
 }
 .navigat {
   align-items: center;
@@ -65,7 +67,6 @@ img {
   text-decoration: none;
   font-size: 18px;
   line-height: 1.17;
-  margin-bottom: 16px;
   margin-right: 76px;
 }
 .studio {
@@ -90,6 +91,7 @@ img {
 }
 .addss {
   font-style: normal;
+  margin-left: auto;
 }
 .address:hover,
 .address:focus {
@@ -107,9 +109,10 @@ img {
 /* кнопка */
 
 .first-sec {
+  display: flex;
   background-color: var(--color--);
-  margin-bottom: 120px;
   padding: 188px 0;
+  flex-direction: column;
 }
 .header-first {
   color: var(--backgr-color);
@@ -118,6 +121,8 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .button-first:hover,
 .button-first:focus {
@@ -136,12 +141,13 @@ img {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* наші принципи */
 
 .second-li {
-  padding: 24px 0;
   gap: 24px;
 }
 .second-sec {
@@ -149,7 +155,6 @@ img {
 }
 .li-items {
   width: calc((100% - 72px) / 4);
-  margin-right: 24px;
 }
 .last {
   margin-right: 0;
@@ -176,6 +181,8 @@ img {
 .third-sec {
   padding-bottom: 120px;
   display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .header-four {
   font-size: 36px;
@@ -187,6 +194,8 @@ img {
   margin-bottom: 72px;
 }
 .third {
+  margin-left: auto;
+  margin-right: auto;
   gap: 24px;
 }
 .thidr-li-it {
